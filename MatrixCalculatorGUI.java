@@ -584,27 +584,27 @@ class MatrixCalculatorGUI implements ActionListener {
         }
 
         if (eventActionListener.getSource() == matrixOneRandom) {
-            fieldOne.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldTwo.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldThree.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldFour.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldFive.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldSix.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldSeven.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldEight.setText(String.format("%d", (int)(Math.random() * 10)));
-            fieldNine.setText(String.format("%d", (int)(Math.random() * 10)));
+            fieldOne.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldTwo.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldThree.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldFour.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldFive.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldSix.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldSeven.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldEight.setText(String.format("%d", (int)(Math.random() * 11)));
+            fieldNine.setText(String.format("%d", (int)(Math.random() * 11)));
         }
 
         if (eventActionListener.getSource() == matrixTwoRandom) {
-            secondFieldOne.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldTwo.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldThree.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldFour.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldFive.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldSix.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldSeven.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldEight.setText(String.format("%d", (int)(Math.random() * 10)));
-            secondFieldNine.setText(String.format("%d", (int)(Math.random() * 10)));
+            secondFieldOne.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldTwo.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldThree.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldFour.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldFive.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldSix.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldSeven.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldEight.setText(String.format("%d", (int)(Math.random() * 11)));
+            secondFieldNine.setText(String.format("%d", (int)(Math.random() * 11)));
         }
 
         if (eventActionListener.getSource() == checkYourselfAdd) {
